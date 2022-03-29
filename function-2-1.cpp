@@ -49,7 +49,7 @@ void hexDigits(int *numbers, int length)
             output = std::to_string(numbers[i]);
             break;
         }
-        std::cout << i << " " << output;
+        std::cout << i << " " << numbers[i] << " " << output;
         std::cout << std::endl;
     }
 }
