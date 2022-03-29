@@ -17,5 +17,4 @@ void printNumbers(int *numbers, int length)
     {
         std::cout << i << " " << numbers[i] << std::endl;
     }
-    delete numbers;
 }

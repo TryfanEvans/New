@@ -52,5 +52,4 @@ void hexDigits(int *numbers, int length)
         std::cout << i << " " << output;
         std::cout << std::endl;
     }
-    delete numbers;
 }
