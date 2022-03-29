@@ -5,8 +5,8 @@ extern void printNumbers(int *numbers, int length);
 
 int main()
 {
-
-    printNumbers(readNumbers(), 10);
-  
+    int *p = readNumbers();
+    printNumbers(p, 10);
+    delete p;
     return 0;
 }
