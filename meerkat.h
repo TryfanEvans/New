@@ -1,8 +1,11 @@
 #include <iostream>
-using namespace std;
 
 class meerkat
 {
+private:
+    std::string name;
+    int age;
+
 public:
     meerkat();                          // no name or age is required to create a meerkat
     void setName(std::string meerName); // change the meerkat's name
