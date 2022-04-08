@@ -8,7 +8,7 @@ meerkat::meerkat()
 } // no name or age is required to create a meerkat
 void meerkat::setName(std::string meerName)
 {
-    name = meername;
+    name = meerName;
 } // change the meerkat's name
 string meerkat::getName()
 {
