@@ -1,3 +1,5 @@
+#include "person.h"
+
 class aircraft
 {
 public:
