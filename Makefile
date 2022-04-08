@@ -1,2 +1,2 @@
-mymake: meerkat.cpp meerkat.h main-1-1.cpp
-	g++ meerkat.cpp meerkat.h main-1-1.cpp -o out
+mymake: cart.h cart.cpp meerkat.cpp meerkat.h main-2-1.cpp
+	g++ cart.h cart.cpp meerkat.cpp meerkat.h main-2-1.cpp -o out
