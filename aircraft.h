@@ -1,4 +1,3 @@
-#include "aircraft.h"
 class aircraft
 {
 public:
