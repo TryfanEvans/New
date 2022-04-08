@@ -1,6 +1,7 @@
 
 class aircraft
 {
+public:
     person pilot;
     person coPilot;
     // a pilot and copilot must be provided when creating an aircraft
