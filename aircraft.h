@@ -1,6 +1,6 @@
 #pragma once
 using namespace std;
-
+#include "person.h"
 class aircraft
 {
 public:
