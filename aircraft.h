@@ -1,5 +1,4 @@
 #pragma once
-#include "person.h"
 
 class aircraft
 {
