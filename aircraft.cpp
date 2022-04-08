@@ -1,5 +1,6 @@
 using namespace std;
 #include "aircraft.h"
+#include "person.h"
 
 // a pilot and copilot must be provided when creating an aircraft
 aircraft::aircraft(string callsign, person thePilot, person theCoPilot)
