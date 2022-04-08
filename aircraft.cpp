@@ -10,6 +10,7 @@ void aircraft::setPilot(person thePilot)
 } // change the pilot
 person aircraft::getPilot()
 {
+    return pilot;
 }
 void aircraft::setCoPilot(person theCoPilot)
 {
@@ -17,6 +18,7 @@ void aircraft::setCoPilot(person theCoPilot)
 } // change the co-pilot
 person aircraft::getCoPilot()
 {
+    return coPilot;
 }
 void aircraft::printDetails()
 {
