@@ -11,4 +11,4 @@ public:
     void emptyCart();             // remove all meerkats from the cart
     void printMeerkats();         // print the name, a space, the age, then a new line
                                   // for each meerkat in the order they were added
-}
+};
