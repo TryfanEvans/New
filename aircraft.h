@@ -9,4 +9,4 @@ class aircraft
     person getCoPilot();
     void printDetails(); // print the callsign, a new line, the pilot name,
                          // a new line, the co-pilot name and a final newline.
-}
+};

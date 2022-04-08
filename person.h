@@ -9,4 +9,4 @@ class person
     string getName();
     void setSalary(int mySalary); // change the person's salary
     int getSalary();
-}
+};
