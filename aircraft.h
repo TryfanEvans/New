@@ -1,5 +1,6 @@
 #pragma once
 
+extern class person;
 class aircraft
 {
 public:
