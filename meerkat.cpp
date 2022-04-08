@@ -1,27 +1,24 @@
 #include <iostream>
+#include "meerkat.h"
 using namespace std;
 
-class meerkat
+meerkat::meerkat()
 {
-public:
-    meerkat()
-    {
 
-    } // no name or age is required to create a meerkat
-    void setName(string meerName)
-    {
+} // no name or age is required to create a meerkat
+void meerkat::setName(std::string meerName)
+{
 
-    } // change the meerkat's name
-    string getName()
-    {
-        return "huh";
-    }
-    void setAge(int meerAge)
-    {
+} // change the meerkat's name
+string meerkat::getName()
+{
+    return "huh";
+}
+void meerkat::setAge(int meerAge)
+{
 
-    } // change the meerkat's age
-    int getAge()
-    {
-        return 0;
-    }
-};
+} // change the meerkat's age
+int meerkat::getAge()
+{
+    return 0;
+}
