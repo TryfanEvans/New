@@ -1,12 +1,23 @@
 #include <iostream>
-
-extern int *readNumbers();
-extern void printNumbers(int *numbers, int length);
+#include "meerkat.h"
 
 int main()
 {
-    int *p = readNumbers();
-    printNumbers(p, 10);
-    delete p;
+    meerkat bobby;
+    meerkat darling;
+    meerkat katrina;
+    meerkat dave;
+
+    bobby.setAge(10);
+    darling.setAge(10);
+    katrina.setAge(10);
+    dave.setAge(10);
+
+    bobby.setName("bobby");
+    darling.setName("bobby");
+    katrina.setName("bobby");
+    dave.setName("bobby");
+
+    std::cout << bobby.getAge() << std::endl;
     return 0;
 }
