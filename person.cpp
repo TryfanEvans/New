@@ -5,6 +5,10 @@ person::person(string myName, int Salary)
 {
 
 } // a name and salary must be provided to create a person
+person::person()
+{
+
+} // a name and salary must be provided to create a person
 void person::setName(string myName)
 {
 
