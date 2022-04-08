@@ -1,3 +1,4 @@
+#include "meerkat.h"
 
 class cart
 {
