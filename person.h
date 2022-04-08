@@ -1,5 +1,4 @@
 #include <iostream>
-#include "person.cpp"
 using namespace std;
 
 class person
