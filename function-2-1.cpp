@@ -6,7 +6,8 @@ string lookup_spectrum(int day)
 {
     if (day < 1 || day > 7)
     {
-        return "invalid colour";
+        string failure = "invalid colour";
+        return failure;
     }
     string colors[7] = {"Red",
                         "Orange",
