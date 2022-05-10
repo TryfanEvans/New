@@ -9,13 +9,13 @@ string lookup_spectrum(int day)
         string failure = "invalid colour";
         return failure;
     }
-    string colors[7] = {"Red ",
-                        "Orange ",
-                        "Yellow ",
-                        "Green ",
-                        "Blue ",
-                        "Indigo ",
-                        "Violet "};
+    string colors[7] = {"Red",
+                        "Orange",
+                        "Yellow",
+                        "Green",
+                        "Blue",
+                        "Indigo",
+                        "Violet"};
     return colors[day - 1];
 }
 
