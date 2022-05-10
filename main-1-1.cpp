@@ -1,23 +1,9 @@
-#include <iostream>
-#include "meerkat.h"
+extern int *create_ints(int num_vals);
+extern void display_array(int *vals, int num_vals);
 
 int main()
 {
-    meerkat bobby;
-    meerkat darling;
-    meerkat katrina;
-    meerkat dave;
-
-    bobby.setAge(10);
-    darling.setAge(10);
-    katrina.setAge(10);
-    dave.setAge(10);
-
-    bobby.setName("bobby");
-    darling.setName("bobby");
-    katrina.setName("bobby");
-    dave.setName("bobby");
-
-    std::cout << bobby.getAge() << std::endl;
+    int *a = create_ints(5);
+    display_array(a, 5);
     return 0;
 }
