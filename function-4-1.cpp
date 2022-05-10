@@ -6,7 +6,7 @@ int *sparse_count(int **vals, int num_rows, int num_cols)
     {
         for (int j = 0; j < num_cols; j++)
         {
-            if (vals[i][j] == 0)
+            if (vals[j][i] == 0)
             {
                 zero_entities++;
             }
